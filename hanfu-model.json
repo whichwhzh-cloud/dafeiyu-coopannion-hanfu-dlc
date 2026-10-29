@@ -1,0 +1,1132 @@
+{
+  "units": {
+    "S": 0.19,
+    "X0": 650,
+    "FEET": 1363,
+    "DS": 0.6,
+    "featDS": 1
+  },
+  "pivots": {
+    "body": [
+      128,
+      256
+    ],
+    "waist": [
+      128,
+      188.93
+    ],
+    "neck": [
+      129.9,
+      154.73
+    ],
+    "armNear": [
+      113.18,
+      166.13
+    ],
+    "armFar": [
+      153.65,
+      168.98
+    ],
+    "legBack": [
+      112.42,
+      203.18
+    ],
+    "legFront": [
+      144.15,
+      203.18
+    ],
+    "tail": [
+      88.1,
+      206.03
+    ],
+    "finNear": [
+      80.88,
+      128.13
+    ],
+    "finFar": [
+      173.22,
+      126.23
+    ],
+    "ahoge": [
+      118.5,
+      54.03
+    ],
+    "head": [
+      137.5,
+      114.83
+    ]
+  },
+  "parts": [
+    {
+      "id": "hair_back",
+      "tex": "hair_back",
+      "z": 1,
+      "parent": "hairSway",
+      "grid": [
+        8,
+        12
+      ],
+      "box": [
+        39.46,
+        48.33,
+        144.21,
+        173.66
+      ]
+    },
+    {
+      "id": "tail",
+      "tex": "tail",
+      "z": 1.5,
+      "parent": "tailBend",
+      "grid": [
+        10,
+        4
+      ],
+      "box": [
+        24.26,
+        172.21,
+        83.03,
+        40.47
+      ]
+    },
+    {
+      "id": "hair_back_curl",
+      "tex": "hair_back_curl",
+      "z": 1.75,
+      "parent": "hairSway",
+      "grid": [
+        4,
+        8
+      ],
+      "box": [
+        74.23,
+        171.83,
+        41.23,
+        47.88
+      ]
+    },
+    {
+      "id": "arm_far",
+      "tex": "hanfu_arm_far",
+      "z": 4.5,
+      "parent": "armFar",
+      "grid": [
+        3,
+        5
+      ],
+      "box": [
+        146,
+        165,
+        31,
+        69
+      ],
+      "src": "layers/06-arm-far.png",
+      "uvBox": [
+        0.634765625,
+        0.3776041666666667,
+        0.9345703125,
+        0.72265625
+      ]
+    },
+    {
+      "id": "leg_back",
+      "tex": "leg_back",
+      "z": 4,
+      "parent": "legBack",
+      "grid": [
+        3,
+        10
+      ],
+      "box": [
+        96.08,
+        173.16,
+        40.28,
+        84.55
+      ]
+    },
+    {
+      "id": "leg_front",
+      "tex": "leg_front",
+      "z": 3,
+      "parent": "legFront",
+      "grid": [
+        3,
+        10
+      ],
+      "box": [
+        120.21,
+        168.79,
+        43.7,
+        86.83
+      ]
+    },
+    {
+      "id": "torso_up",
+      "tex": "hanfu_torso_up",
+      "z": 5,
+      "parent": "body",
+      "grid": [
+        6,
+        6
+      ],
+      "box": [
+        106,
+        149,
+        49,
+        61
+      ],
+      "src": "layers/03-torso.png",
+      "uvBox": [
+        0.41015625,
+        0.4095052083333333,
+        0.7509765625,
+        0.7239583333333334
+      ]
+    },
+    {
+      "id": "hair_front_right",
+      "tex": "hair_front_right",
+      "z": 5.05,
+      "parent": "hairSway",
+      "grid": [
+        4,
+        6
+      ],
+      "box": [
+        146.62,
+        148.27,
+        30.21,
+        42.75
+      ]
+    },
+    {
+      "id": "skirt",
+      "tex": "hanfu_skirt",
+      "z": 5.2,
+      "parent": "skirt",
+      "grid": [
+        8,
+        6
+      ],
+      "box": [
+        83,
+        180,
+        98,
+        68
+      ],
+      "src": "layers/04-skirt.png",
+      "uvBox": [
+        0.12109375,
+        0.3880208333333333,
+        0.916015625,
+        0.85546875
+      ]
+    },
+    {
+      "id": "skirt_sit",
+      "tex": "hanfu_skirt_sit",
+      "z": 5.3,
+      "parent": "skirtSit",
+      "grid": [
+        8,
+        4
+      ],
+      "box": [
+        70,
+        180,
+        120,
+        58
+      ],
+      "src": "layers/04-skirt.png",
+      "uvBox": [
+        0.12109375,
+        0.3880208333333333,
+        0.916015625,
+        0.85546875
+      ]
+    },
+    {
+      "id": "hair_front_left",
+      "tex": "hair_front_left",
+      "z": 5.4,
+      "parent": "hairSway",
+      "grid": [
+        4,
+        8
+      ],
+      "box": [
+        60.93,
+        118.63,
+        44.84,
+        76.57
+      ]
+    },
+    {
+      "id": "arm_near",
+      "tex": "hanfu_arm_near",
+      "z": 6,
+      "parent": "armNear",
+      "grid": [
+        4,
+        6
+      ],
+      "box": [
+        88,
+        159,
+        40,
+        79
+      ],
+      "src": "layers/05-arm-near.png",
+      "uvBox": [
+        0.1171875,
+        0.14973958333333334,
+        0.68359375,
+        0.8951822916666666
+      ]
+    },
+    {
+      "id": "fin_far",
+      "tex": "fin_far",
+      "z": 7,
+      "parent": "finFar",
+      "grid": [
+        4,
+        3
+      ],
+      "box": [
+        166,
+        103.62,
+        38.76,
+        39.14
+      ]
+    },
+    {
+      "id": "sidelocks",
+      "tex": "sidelocks",
+      "z": 7.5,
+      "parent": "bangsSway",
+      "grid": [
+        4,
+        8
+      ],
+      "box": [
+        87.72,
+        124.14,
+        98.23,
+        49.21
+      ]
+    },
+    {
+      "id": "face",
+      "tex": "face",
+      "z": 8,
+      "parent": "headMid",
+      "grid": [
+        6,
+        6
+      ],
+      "box": [
+        100.26,
+        73.98,
+        75.62,
+        82.08
+      ]
+    },
+    {
+      "id": "eye_creases",
+      "tex": "eye_creases",
+      "z": 8.5,
+      "parent": "headFeat",
+      "grid": [
+        4,
+        2
+      ],
+      "box": [
+        126.29,
+        108.94,
+        44.46,
+        9.88
+      ]
+    },
+    {
+      "id": "brows",
+      "tex": "brows",
+      "z": 8.6,
+      "parent": "headFeat",
+      "grid": [
+        12,
+        2
+      ],
+      "box": [
+        117.74,
+        97.35,
+        58.33,
+        9.12
+      ]
+    },
+    {
+      "id": "fin_near",
+      "tex": "fin_near",
+      "z": 11,
+      "parent": "finNear",
+      "grid": [
+        5,
+        3
+      ],
+      "box": [
+        37.37,
+        100.39,
+        59.85,
+        42.75
+      ]
+    },
+    {
+      "id": "bangs",
+      "tex": "bangs",
+      "z": 13,
+      "parent": "bangsSway",
+      "grid": [
+        8,
+        10
+      ],
+      "box": [
+        80.69,
+        51.75,
+        112.29,
+        99.75
+      ]
+    },
+    {
+      "id": "ahoge",
+      "tex": "ahoge",
+      "z": 14,
+      "parent": "ahoge",
+      "grid": [
+        5,
+        4
+      ],
+      "box": [
+        87.15,
+        20.4,
+        53.2,
+        36.29
+      ]
+    },
+    {
+      "id": "flower_near",
+      "tex": "flower_near",
+      "src": "layers/10-ornaments-fins.png",
+      "box": [
+        73,
+        56,
+        36,
+        40
+      ],
+      "uvBox": [
+        0.17578125,
+        0.08463541666666667,
+        0.498046875,
+        0.3255208333333333
+      ],
+      "parent": "headMid",
+      "z": 12.5,
+      "grid": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "flower_far",
+      "tex": "flower_far",
+      "src": "layers/10-ornaments-fins.png",
+      "box": [
+        166,
+        62,
+        23,
+        26
+      ],
+      "uvBox": [
+        0.7861328125,
+        0.09440104166666667,
+        0.9765625,
+        0.22786458333333334
+      ],
+      "parent": "headMid",
+      "z": 12.5,
+      "grid": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "tassel",
+      "tex": "tassel",
+      "src": "layers/10-ornaments-fins.png",
+      "box": [
+        83,
+        99,
+        9,
+        44
+      ],
+      "uvBox": [
+        0.2734375,
+        0.3255208333333333,
+        0.3564453125,
+        0.5924479166666666
+      ],
+      "parent": "tasselSwing",
+      "z": 13.9,
+      "grid": [
+        4,
+        6
+      ]
+    }
+  ],
+  "feat": {
+    "eyes": {
+      "eyeL": {
+        "lash": [
+          549,
+          609,
+          714,
+          715
+        ],
+        "ball": [
+          585,
+          630,
+          710,
+          748
+        ],
+        "iris": [
+          611,
+          629,
+          707,
+          748
+        ],
+        "lidFit": [
+          0.008654097031104648,
+          -11.40448806820491,
+          4388.756473993086
+        ],
+        "rimFit": [
+          -0.011105816330789699,
+          14.433190194160977,
+          -3943.1944247092115
+        ]
+      },
+      "eyeR": {
+        "lash": [
+          825,
+          617,
+          911,
+          701
+        ],
+        "ball": [
+          819,
+          635,
+          886,
+          745
+        ],
+        "iris": [
+          822,
+          636,
+          874,
+          744
+        ],
+        "lidFit": [
+          0.034502404875217586,
+          -59.064235979945046,
+          25913.794804961508
+        ],
+        "rimFit": [
+          -0.053416795724098264,
+          90.54594798983726,
+          -37627.38070212919
+        ]
+      }
+    },
+    "sprites": {
+      "neutral_mouth": [
+        758,
+        764,
+        773,
+        775
+      ],
+      "happy_eyeL": [
+        554,
+        651,
+        699,
+        756
+      ],
+      "happy_eyeR": [
+        792,
+        659,
+        877,
+        754
+      ],
+      "happy_mouth": [
+        715,
+        740,
+        772,
+        783
+      ],
+      "sleep_eyeL": [
+        557,
+        672,
+        696,
+        721
+      ],
+      "sleep_eyeR": [
+        789,
+        681,
+        874,
+        726
+      ],
+      "sleep_mouth": [
+        739,
+        758,
+        763,
+        772
+      ],
+      "drag_eyeL": [
+        577,
+        619,
+        685,
+        720
+      ],
+      "drag_eyeR": [
+        795,
+        631,
+        875,
+        727
+      ],
+      "drag_mouth": [
+        709,
+        745,
+        766,
+        764
+      ],
+      "love_eyeL": [
+        539,
+        607,
+        706,
+        776
+      ],
+      "love_eyeR": [
+        799,
+        608,
+        888,
+        768
+      ],
+      "love_mouth": [
+        723,
+        748,
+        785,
+        792
+      ],
+      "dizzy_eyeL": [
+        568,
+        607,
+        701,
+        733
+      ],
+      "dizzy_eyeR": [
+        784,
+        608,
+        878,
+        732
+      ],
+      "dizzy_mouth": [
+        711,
+        761,
+        782,
+        779
+      ],
+      "surprised_eyeL": [
+        535,
+        594,
+        716,
+        758
+      ],
+      "surprised_eyeR": [
+        818,
+        601,
+        904,
+        751
+      ],
+      "surprised_mouth": [
+        751,
+        747,
+        791,
+        795
+      ]
+    },
+    "blush": [
+      253,
+      222,
+      209
+    ],
+    "skin": [
+      253,
+      242,
+      231
+    ]
+  },
+  "schemes": [
+    {
+      "id": "deepseek",
+      "brand": "DeepSeek",
+      "label": "原版",
+      "accent": "#4D6BFE",
+      "ready": true
+    }
+  ],
+  "view": [
+    -12,
+    -8,
+    268,
+    272
+  ],
+  "outfits": [
+    {
+      "id": "hanfu",
+      "softSleeves": true,
+      "parts": [
+        {
+          "id": "hair_back",
+          "tex": "hair_back",
+          "z": 1,
+          "parent": "hairSway",
+          "grid": [
+            8,
+            12
+          ],
+          "box": [
+            39.46,
+            48.33,
+            144.21,
+            173.66
+          ]
+        },
+        {
+          "id": "tail",
+          "tex": "tail",
+          "z": 1.5,
+          "parent": "tailBend",
+          "grid": [
+            10,
+            4
+          ],
+          "box": [
+            24.26,
+            172.21,
+            83.03,
+            40.47
+          ]
+        },
+        {
+          "id": "hair_back_curl",
+          "tex": "hair_back_curl",
+          "z": 1.75,
+          "parent": "hairSway",
+          "grid": [
+            4,
+            8
+          ],
+          "box": [
+            74.23,
+            171.83,
+            41.23,
+            47.88
+          ]
+        },
+        {
+          "id": "arm_far",
+          "tex": "hanfu_arm_far",
+          "z": 4.5,
+          "parent": "armFar",
+          "grid": [
+            3,
+            5
+          ],
+          "box": [
+            146,
+            165,
+            31,
+            69
+          ],
+          "src": "layers/06-arm-far.png",
+          "uvBox": [
+            0.634765625,
+            0.3776041666666667,
+            0.9345703125,
+            0.72265625
+          ]
+        },
+        {
+          "id": "leg_back",
+          "tex": "leg_back",
+          "z": 4,
+          "parent": "legBack",
+          "grid": [
+            3,
+            10
+          ],
+          "box": [
+            96.08,
+            173.16,
+            40.28,
+            84.55
+          ]
+        },
+        {
+          "id": "leg_front",
+          "tex": "leg_front",
+          "z": 3,
+          "parent": "legFront",
+          "grid": [
+            3,
+            10
+          ],
+          "box": [
+            120.21,
+            168.79,
+            43.7,
+            86.83
+          ]
+        },
+        {
+          "id": "torso_up",
+          "tex": "hanfu_torso_up",
+          "z": 5,
+          "parent": "body",
+          "grid": [
+            6,
+            6
+          ],
+          "box": [
+            106,
+            149,
+            49,
+            61
+          ],
+          "src": "layers/03-torso.png",
+          "uvBox": [
+            0.41015625,
+            0.4095052083333333,
+            0.7509765625,
+            0.7239583333333334
+          ]
+        },
+        {
+          "id": "hair_front_right",
+          "tex": "hair_front_right",
+          "z": 5.05,
+          "parent": "hairSway",
+          "grid": [
+            4,
+            6
+          ],
+          "box": [
+            146.62,
+            148.27,
+            30.21,
+            42.75
+          ]
+        },
+        {
+          "id": "skirt",
+          "tex": "hanfu_skirt",
+          "z": 5.2,
+          "parent": "skirt",
+          "grid": [
+            8,
+            6
+          ],
+          "box": [
+            83,
+            180,
+            98,
+            68
+          ],
+          "src": "layers/04-skirt.png",
+          "uvBox": [
+            0.12109375,
+            0.3880208333333333,
+            0.916015625,
+            0.85546875
+          ]
+        },
+        {
+          "id": "skirt_sit",
+          "tex": "hanfu_skirt_sit",
+          "z": 5.3,
+          "parent": "skirtSit",
+          "grid": [
+            8,
+            4
+          ],
+          "box": [
+            70,
+            180,
+            120,
+            58
+          ],
+          "src": "layers/04-skirt.png",
+          "uvBox": [
+            0.12109375,
+            0.3880208333333333,
+            0.916015625,
+            0.85546875
+          ]
+        },
+        {
+          "id": "hair_front_left",
+          "tex": "hair_front_left",
+          "z": 5.4,
+          "parent": "hairSway",
+          "grid": [
+            4,
+            8
+          ],
+          "box": [
+            60.93,
+            118.63,
+            44.84,
+            76.57
+          ]
+        },
+        {
+          "id": "arm_near",
+          "tex": "hanfu_arm_near",
+          "z": 6,
+          "parent": "armNear",
+          "grid": [
+            4,
+            6
+          ],
+          "box": [
+            88,
+            159,
+            40,
+            79
+          ],
+          "src": "layers/05-arm-near.png",
+          "uvBox": [
+            0.1171875,
+            0.14973958333333334,
+            0.68359375,
+            0.8951822916666666
+          ]
+        },
+        {
+          "id": "fin_far",
+          "tex": "fin_far",
+          "z": 7,
+          "parent": "finFar",
+          "grid": [
+            4,
+            3
+          ],
+          "box": [
+            166,
+            103.62,
+            38.76,
+            39.14
+          ]
+        },
+        {
+          "id": "sidelocks",
+          "tex": "sidelocks",
+          "z": 7.5,
+          "parent": "bangsSway",
+          "grid": [
+            4,
+            8
+          ],
+          "box": [
+            87.72,
+            124.14,
+            98.23,
+            49.21
+          ]
+        },
+        {
+          "id": "face",
+          "tex": "face",
+          "z": 8,
+          "parent": "headMid",
+          "grid": [
+            6,
+            6
+          ],
+          "box": [
+            100.26,
+            73.98,
+            75.62,
+            82.08
+          ]
+        },
+        {
+          "id": "eye_creases",
+          "tex": "eye_creases",
+          "z": 8.5,
+          "parent": "headFeat",
+          "grid": [
+            4,
+            2
+          ],
+          "box": [
+            126.29,
+            108.94,
+            44.46,
+            9.88
+          ]
+        },
+        {
+          "id": "brows",
+          "tex": "brows",
+          "z": 8.6,
+          "parent": "headFeat",
+          "grid": [
+            12,
+            2
+          ],
+          "box": [
+            117.74,
+            97.35,
+            58.33,
+            9.12
+          ]
+        },
+        {
+          "id": "fin_near",
+          "tex": "fin_near",
+          "z": 11,
+          "parent": "finNear",
+          "grid": [
+            5,
+            3
+          ],
+          "box": [
+            37.37,
+            100.39,
+            59.85,
+            42.75
+          ]
+        },
+        {
+          "id": "bangs",
+          "tex": "bangs",
+          "z": 13,
+          "parent": "bangsSway",
+          "grid": [
+            8,
+            10
+          ],
+          "box": [
+            80.69,
+            51.75,
+            112.29,
+            99.75
+          ]
+        },
+        {
+          "id": "ahoge",
+          "tex": "ahoge",
+          "z": 14,
+          "parent": "ahoge",
+          "grid": [
+            5,
+            4
+          ],
+          "box": [
+            87.15,
+            20.4,
+            53.2,
+            36.29
+          ]
+        },
+        {
+          "id": "flower_near",
+          "tex": "flower_near",
+          "src": "layers/10-ornaments-fins.png",
+          "box": [
+            73,
+            56,
+            36,
+            40
+          ],
+          "uvBox": [
+            0.17578125,
+            0.08463541666666667,
+            0.498046875,
+            0.3255208333333333
+          ],
+          "parent": "headMid",
+          "z": 12.5,
+          "grid": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "flower_far",
+          "tex": "flower_far",
+          "src": "layers/10-ornaments-fins.png",
+          "box": [
+            166,
+            62,
+            23,
+            26
+          ],
+          "uvBox": [
+            0.7861328125,
+            0.09440104166666667,
+            0.9765625,
+            0.22786458333333334
+          ],
+          "parent": "headMid",
+          "z": 12.5,
+          "grid": [
+            4,
+            6
+          ]
+        },
+        {
+          "id": "tassel",
+          "tex": "tassel",
+          "src": "layers/10-ornaments-fins.png",
+          "box": [
+            83,
+            99,
+            9,
+            44
+          ],
+          "uvBox": [
+            0.2734375,
+            0.3255208333333333,
+            0.3564453125,
+            0.5924479166666666
+          ],
+          "parent": "tasselSwing",
+          "z": 13.9,
+          "grid": [
+            4,
+            6
+          ]
+        }
+      ],
+      "deformers": {
+        "tasselSwing": {
+          "parent": "headMid",
+          "pivot": [
+            87.5,
+            99
+          ],
+          "gain": 0.6
+        }
+      }
+    }
+  ]
+}
